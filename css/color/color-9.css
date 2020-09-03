@@ -1,0 +1,78 @@
+/*
+
+Template: Profyl - Personal Vcard Resume HTML Template
+Author: iqonicthemes.in
+Version: 1.0
+Design and Developed by: iqonicthemes.in
+
+NOTE: This is main stylesheet of template, This file contains the styling for the actual Template. Please do not change anything here! write in a custom.css file if required!
+
+*/
+
+/************************* selection *************************/
+*::-moz-selection { background: #f16529; color: #fff; text-shadow: none; }
+::-moz-selection { background: #f16529; color: #fff; text-shadow: none; }
+::selection { background: #f16529; color: #fff; text-shadow: none; }
+a { color: #333; }
+a:focus, a:hover { color: #f16529; }
+
+/*----------------------------------------------------------------------
+                        Buttons
+-----------------------------------------------------------------------*/
+.button { border-color: #f16529; }
+.button:hover, .button:focus { border-color: #f16529; background: #f16529; }
+
+/*---------------------------------------------------------------------
+                            Text Color 
+-----------------------------------------------------------------------*/
+.iq-font-purple, .follow-us li a:hover, .content-deta h1.iq-font-purple, .interests li i, .customers-tab .nav-tabs li a.active, .customers-tab .nav-tabs li a:hover, .isotope-filters  button.active, .isotope-filters  button:hover, .item-link a:hover, .iq-blog-detail a:hover, .iq-blog-detail  .blog-title a:hover h5, .iq-blog-detail a:hover, .iq-blog-detail  .blog-title a:hover h5, .contact-info li i, .iq-sidebar-widget .iq-widget-search input, .iq-sidebar-widget .iq-widget-search i, .iq-widget-menu ul li a span:hover, .iq-widget-menu ul ul li a span:hover, .iq-sidebar-widget .iq-recent-post .media-body > a:hover, .iq-widget-archives li a:hover, .iq-tags li a:hover, .iq-comment-list .iq-comment-metadata i { color: #f16529; }
+
+/*---------------------------------------------------------------------
+                          Background Color 
+-----------------------------------------------------------------------*/
+.purple-bg { background: rgba(228,77,38,1);
+background: -moz-linear-gradient(left, rgba(228,77,38,1) 0%, rgba(241,101,41,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(228,77,38,1)), color-stop(100%, rgba(241,101,41,1)));
+background: -webkit-linear-gradient(left, rgba(228,77,38,1) 0%, rgba(241,101,41,1) 100%);
+background: -o-linear-gradient(left, rgba(228,77,38,1) 0%, rgba(241,101,41,1) 100%);
+background: -ms-linear-gradient(left, rgba(228,77,38,1) 0%, rgba(241,101,41,1) 100%);
+background: linear-gradient(to right, rgba(228,77,38,1) 0%, rgba(241,101,41,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e44d26', endColorstr='#f16529', GradientType=1 ); }
+header .navbar.navbar-light .navbar-nav .nav-item.active .nav-link, .navbar-light .navbar-toggler, .title:before, .iq-progress-bar > span, .iq-client:before, .owl-carousel .owl-nav i:hover, .item-link a, .iq-sidebar-widget .iq-widget-title:before { background: #f16529; }
+.nicescroll-cursors { background: #f16529 !important; }
+
+/*---------------------------------------------------------------------
+                       Background Gradient 
+---------------------------------------------------------------------*/
+.iq-over-purple-80:before { background: rgba(228,77,38,1);
+background: -moz-linear-gradient(left, rgba(228,77,38,1) 0%, rgba(241,101,41,0.8) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(228,77,38,1)), color-stop(100%, rgba(241,101,41,0.8)));
+background: -webkit-linear-gradient(left, rgba(228,77,38,1) 0%, rgba(241,101,41,0.8) 100%);
+background: -o-linear-gradient(left, rgba(228,77,38,1) 0%, rgba(241,101,41,0.8) 100%);
+background: -ms-linear-gradient(left, rgba(228,77,38,1) 0%, rgba(241,101,41,0.8) 100%);
+background: linear-gradient(to right, rgba(228,77,38,1) 0%, rgba(241,101,41,0.8) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e44d26', endColorstr='#f16529', GradientType=1 ); }
+.iq-over-purple-90:before { background: rgba(228,77,38,1);
+background: -moz-linear-gradient(left, rgba(228,77,38,1) 0%, rgba(241,101,41,0.9) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(228,77,38,1)), color-stop(100%, rgba(241,101,41,0.9)));
+background: -webkit-linear-gradient(left, rgba(228,77,38,1) 0%, rgba(241,101,41,0.9) 100%);
+background: -o-linear-gradient(left, rgba(228,77,38,1) 0%, rgba(241,101,41,0.9) 100%);
+background: -ms-linear-gradient(left, rgba(228,77,38,1) 0%, rgba(241,101,41,0.9) 100%);
+background: linear-gradient(to right, rgba(228,77,38,1) 0%, rgba(241,101,41,0.9) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e44d26', endColorstr='#f16529', GradientType=1 ); }
+
+/*---------------------------------------------------------------------
+                          Boder Color 
+-----------------------------------------------------------------------*/
+.boder-img:before, header .navbar.navbar-light .navbar-nav .nav-item.active .nav-link, .navbar-light .navbar-toggler, .customers-tab .nav-tabs li a.active, .customers-tab .nav-tabs li a:hover, .isotope-filters  button.active, .isotope-filters  button:hover, .contact-form .section-field input:focus, .contact-form .section-field.textarea textarea:focus, .iq-sidebar-widget .iq-widget-search input:focus, .iq-tags li a:hover { border-color: #f16529; }
+@media(max-width:767px) {
+	.navbar-light .navbar-toggler { background: #fff; color: #f16529; }
+	.header .navbar.navbar-light { background: rgba(228,77,38,1);
+background: -moz-linear-gradient(left, rgba(228,77,38,1) 0%, rgba(241,101,41,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(228,77,38,1)), color-stop(100%, rgba(241,101,41,1)));
+background: -webkit-linear-gradient(left, rgba(228,77,38,1) 0%, rgba(241,101,41,1) 100%);
+background: -o-linear-gradient(left, rgba(228,77,38,1) 0%, rgba(241,101,41,1) 100%);
+background: -ms-linear-gradient(left, rgba(228,77,38,1) 0%, rgba(241,101,41,1) 100%);
+background: linear-gradient(to right, rgba(228,77,38,1) 0%, rgba(241,101,41,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e44d26', endColorstr='#f16529', GradientType=1 ); }
+}
